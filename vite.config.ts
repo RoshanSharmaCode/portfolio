@@ -154,8 +154,8 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
-  // GitHub Pages serves this project under /portfolio/.
-  base: "/portfolio/",
+  // GitHub Pages project sites live under /portfolio/; Vercel serves from /.
+  base: process.env.GITHUB_ACTIONS ? "/portfolio/" : "/",
   plugins,
   resolve: {
     alias: {
