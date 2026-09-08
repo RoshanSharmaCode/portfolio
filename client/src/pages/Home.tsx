@@ -18,8 +18,9 @@ import {
   X,
 } from "lucide-react";
 
-const markImage = "/assets/roshan-mark.webp";
-const resumeFile = "/assets/Roshan-Sharma-Resume.pdf";
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+const markImage = asset("assets/roshan-mark.webp");
+const resumeFile = asset("assets/Roshan-Sharma-Resume.pdf");
 
 const projects = [
   {
@@ -27,7 +28,7 @@ const projects = [
     name: "QuickDine",
     type: "Multi-restaurant table booking platform",
     description: "QuickDine is a full-stack MERN platform that lets customers discover restaurants and reserve tables in real time, with dedicated dashboards for restaurant owners and administrators.",
-    image: "/assets/projects/quickdine.webp",
+    image: asset("assets/projects/quickdine.webp"),
     stack: ["React.js", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "Cloudinary"],
     features: ["Customer search + reservations", "Restaurant owner dashboards", "Admin listing controls", "JWT role-based access", "Table management", "Cloudinary image uploads"],
     github: "https://github.com/RoshanSharmaCode/QuickDine.git",
@@ -38,7 +39,7 @@ const projects = [
     name: "MERN Auth",
     type: "Secure authentication system",
     description: "A full-stack MERN authentication system featuring secure registration, email verification with six-digit OTP, HTTP-only cookie sessions, and password reset functionality.",
-    image: "/assets/projects/mern-auth.webp",
+    image: asset("assets/projects/mern-auth.webp"),
     stack: ["React.js", "Vite", "Tailwind CSS", "Express.js", "MongoDB", "JWT", "Bcrypt.js", "Nodemailer"],
     features: ["User registration + login", "Six-digit email OTP", "HTTP-only cookie auth", "Secure password reset", "HTML email templates", "Protected routes"],
     github: "https://github.com/RoshanSharmaCode/MERN-auth",
@@ -49,7 +50,7 @@ const projects = [
     name: "Crypto Price Tracker",
     type: "Real-time market data application",
     description: "A responsive cryptocurrency tracking application powered by the CoinGecko API, with live market data, detailed coin information, search, filtering, sorting, and interactive seven-day charts.",
-    image: "/assets/projects/crypto-tracker.webp",
+    image: asset("assets/projects/crypto-tracker.webp"),
     stack: ["React.js", "Vite", "React Router", "CoinGecko API", "JavaScript", "CSS3"],
     features: ["Real-time market data", "Search by name or symbol", "Coin detail pages", "Interactive seven-day charts", "Grid + list layouts", "Search, filtering + sorting"],
     github: "https://github.com/RoshanSharmaCode/crypto-price-tracker.git",
@@ -60,7 +61,7 @@ const projects = [
     name: "Gemini Clone — AI Chatbot",
     type: "Generative AI interface",
     description: "A functional clone of Google Gemini built with React.js and the Google Gemini API, demonstrating real-time conversational experiences with history, context, and responsive UI states.",
-    image: "/assets/projects/gemini-clone.png",
+    image: asset("assets/projects/gemini-clone.png"),
     stack: ["React.js", "JavaScript", "Vite", "CSS3", "Context API", "Google Gemini API"],
     features: ["AI-powered responses", "Real-time conversations", "Recent chat history", "Typing animation", "New chat flow", "Collapsible sidebar"],
     github: "https://github.com/RoshanSharmaCode/gemini-chat-app.git",
