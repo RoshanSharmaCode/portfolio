@@ -38,7 +38,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build portfolio
-        run: pnpm build
+        run: VITE_BASE_PATH=/portfolio/ pnpm build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
