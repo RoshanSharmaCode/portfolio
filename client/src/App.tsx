@@ -1,4 +1,4 @@
-// Design system: Editorial Systems — dark product-studio canvas, asymmetrical reading rail, acid-lime system states.
+// Design system: Editorial Systems - dark product-studio canvas, asymmetrical reading rail, acid-lime system states.
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";

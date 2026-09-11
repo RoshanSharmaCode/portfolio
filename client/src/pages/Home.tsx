@@ -1,4 +1,4 @@
-// Design system: Editorial Systems — technical labels, offset compositions, charcoal surfaces, parchment text, acid-lime signals.
+// Design system: Editorial Systems - technical labels, offset compositions, charcoal surfaces, parchment text, acid-lime signals.
 import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import {
@@ -142,7 +142,7 @@ const projects = [
   },
   {
     index: "05",
-    name: "Gemini Clone — AI Chatbot",
+    name: "Gemini Clone - AI Chatbot",
     type: "Generative AI interface",
     description:
       "A functional clone of Google Gemini built with React.js and the Google Gemini API, demonstrating real-time conversational experiences with history, context, and responsive UI states.",
@@ -341,7 +341,7 @@ export default function Home() {
               <span>a working</span> backend.
             </h1>
             <p className="hero-description">
-              Hi, I&apos;m Roshan Sharma — a Full Stack Developer building
+              Hi, I&apos;m Roshan Sharma - a Full Stack Developer building
               reliable, responsive web applications with React, Node.js,
               Express.js, and MongoDB.
             </p>
@@ -436,7 +436,7 @@ export default function Home() {
           <div className="about-grid">
             <Reveal className="about-lede">
               <p>
-                I&apos;m a recent B.Tech graduate in Information Science &amp;
+                I&apos;m a recent B.E graduate in Information Science &amp;
                 Engineering with hands-on experience building full-stack
                 applications from data model to responsive interface.
               </p>
@@ -445,7 +445,7 @@ export default function Home() {
               <p>
                 My work sits across the MERN stack: REST APIs, authentication,
                 database integration, and thoughtful UI systems. I care about
-                the small decisions that make software feel reliable — clear
+                the small decisions that make software feel reliable - clear
                 states, durable components, and flows that make sense the first
                 time.
               </p>
@@ -498,7 +498,7 @@ export default function Home() {
           <Reveal className="experience-card">
             <div className="experience-marker">
               <span className="signal-dot" />
-              <span>02.26 — 05.26</span>
+              <span>02.26 - 05.26</span>
             </div>
             <div className="experience-main">
               <div className="experience-title">
@@ -613,13 +613,13 @@ export default function Home() {
           </div>
           <div className="education-main">
             <h2>
-              B.Tech — Information Science
+              B.E - Information Science
               <br />
               <span>&amp; Engineering</span>
             </h2>
             <div className="education-meta">
               <span>KNS Institute of Technology, Bengaluru</span>
-              <span>2022 — 2026</span>
+              <span>2022 - 2026</span>
               <span>CGPA 8.0 / 10</span>
             </div>
           </div>
@@ -639,7 +639,7 @@ export default function Home() {
             <p className="github-copy">
               I keep my repositories and work-in-progress visible on GitHub.
               Visit the profile for the current project list and contribution
-              activity — no invented counters here.
+              activity - no invented counters here.
             </p>
             <div className="hero-actions">
               <a
@@ -737,7 +737,7 @@ export default function Home() {
             />
             <button className="button button-primary" type="submit">
               {formState === "ready"
-                ? "Draft ready — email me"
+                ? "Draft ready - email me"
                 : "Prepare message"}{" "}
               <Send size={15} />
             </button>

@@ -1,4 +1,4 @@
-# Roshan Sharma Portfolio — Design Direction
+# Roshan Sharma Portfolio - Design Direction
 
 ## Three possible approaches
 
@@ -62,7 +62,7 @@ Example lines:
 Use the generated symbol as a compact two-bracket route mark: an abstract path moving through a node. Pair it with a custom text lockup where “ROSHAN” is set in Space Grotesk and “SHARMA” is tracked in IBM Plex Mono.
 
 ### Signature Brand Color
-Acid Lime — `#D6F36A` — used only for active system states, selected paths, and calls to action.
+Acid Lime - `#D6F36A` - used only for active system states, selected paths, and calls to action.
 
 ## Style Decisions
 - Dark-first; no light-mode toggle is necessary for the first release.
